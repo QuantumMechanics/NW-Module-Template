@@ -6,7 +6,7 @@ class SimpleTransferCtrl {
         'ngInject';
 
         // Declaring services
-        this._$location = $location;
+        this._location = $location;
         this._Alert = Alert;
         this._Wallet = Wallet;
         this._Transactions = Transactions;
